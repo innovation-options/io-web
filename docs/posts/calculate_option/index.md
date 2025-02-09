@@ -15,12 +15,15 @@ The [Trinomial](https://en.wikipedia.org/wiki/Trinomial_tree) is an option-prici
 
 Step one constructs a range of possible future values for an opportunity from a given starting point. Think of it like a storm tracker; from the current position of the storm, the potential path expands into a cone across the possible area of impact. The further in the future, the greater the size of the cone. That’s what happens in step one: from a known starting point, the range of values branches out over the life of the option. It could appreciate greatly and always be headed “up and to the right”. Or it could be a complete disaster, always losing value. Or it could go up, then down, then up, then flat -- anywhere in between the best and worst case.
 
-LATTICE IMAGE
+![](assets/lattice.png)
+
 
 This range is called a “lattice”, or a series of connected nodes that looks like a sideways branching tree. Mathematically the lattice is constructed by applying these equations to each node in sequence, starting with the initial value:
 
 $$u=e^{\sigma\sqrt{2\Delta}t}$$
+
 $$m=1$$
+
 $$d=e^{-\sigma\sqrt{2\Delta}t}=\frac{1}{u}$$
 
 The components of these equations are the constant $e$, the duration of the time step $\Delta{t}$, and the volatility of the proposed investment $\sigma$. (We’ll show later how to calculate these and other variables; for now simply assume them to be known.) The desired outputs are the factors $u$, $d$ and $m$, by which the investment may increase, decrease, or remain the same, respectively.  It is from these three moves that the Trinomial is named.
@@ -62,7 +65,9 @@ Finally, we work from those potential future terminal values back to the present
 So, starting with the penultimate nodes, calculate these using the factors:
 
 $$p_u = \left(\frac{e^{(r - q)  \Delta t / 2}- e^{-\sigma\sqrt {\Delta t/2}}}{e^{\sigma\sqrt {\Delta t/2}}- e^{-\sigma\sqrt {\Delta t/2}}}\right)^2 \,$$
+
 $$p_m = 1 - (p_u + p_d) \,$$
+
 $$p_d = \left(\frac{e^{\sigma\sqrt {\Delta t/2}}-e^{(r - q)  \Delta t / 2}}{e^{\sigma\sqrt {\Delta t/2}}- e^{-\sigma\sqrt {\Delta t/2}}}\right)^2 \,$$
 
 
