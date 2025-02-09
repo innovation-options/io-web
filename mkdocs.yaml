@@ -11,6 +11,7 @@ plugins:
   - search
 extra:
   generator: false
+docs_dir: 'content'
 nav:
   - Home: index.md
   - Posts:
