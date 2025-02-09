@@ -9,3 +9,11 @@ plugins:
   - search
 extra:
   generator: false
+nav:
+  - Home: index.md
+  - Posts:
+    # - The Accounting IS the Problem: accounting-is-the-problem.md
+    - Calculate Option: posts/calculate_option/index.md
+    - Calculate Option: posts/calculate_option/index.md
+    - Calculate Option: posts/calculate_option/index.md
+    - Calculate Option: posts/calculate_option/index.md
