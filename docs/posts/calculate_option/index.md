@@ -1,7 +1,7 @@
-—
-Title: How to Calculate an Innovation Option
+---
+title: How to Calculate an Innovation Option
 Summary: The mathematics behind the innovation option formula.
-—
+---
 
 Innovation Options measure the return on investment (ROI) of pre-growth initiatives based on the option value they provide to the firm. They are an effective alternative to traditional, cash-flow based approaches such as Net Present Value which fail under conditions of high market uncertainty.
 
@@ -27,7 +27,7 @@ The components of these equations are the constant $e$, the duration of the time
 
 With the factors determined, you build the lattice by taking your starting point $S_0$ (called the Spot) and multiplying it by the $u$, $d$ and $m$ factors.
 
-![](%7Bstatic%7Dequations_step_one.png)
+![](assets/equations_step_one.png)
 
 Then, those three results are themselves multiplied by $u$, $d$ and $m$, creating still more nodes.
 
@@ -133,7 +133,7 @@ Also, options tend to be much faster to implement than other governance approach
 
 In short, options expect you to *determine* revenue, while NPV expects you to *deliver* revenue. For well-known products in established markets it is reasonable to use NPV because we can somewhat-reliably predict the future. For unknown products in unknown markets with discontinuous innovation, NPV fails completely -- and often catastrophically.
 
-### Limitations
+#### Limitations
 
 Despite these advantages, it does not mean the Options model is perfect.  To start, it is substantially more complex than linear approaches. Terms such as $\sigma$ and $e$ are unfamiliar and somewhat counter-intuitive, while NPV’s method of subtracting current costs against future profits is much simpler to conceptualize and implement.
 
