@@ -19,16 +19,15 @@ nav:
   - Posts:
     - posts/measuring_learning/index.md
     - posts/calculate_option/index.md
-    - posts/accounting_problem/index.md
-    - posts/angels_and_options/index.md
+    # - posts/accounting_problem/index.md
+    # - posts/angels_and_options/index.md
     - posts/diffusion_of_innovations/index.md
     - posts/innovation_engine/index.md
-    - posts/innovation_metrics/index.md
-    - posts/laddered_innovation/index.md
-    - posts/measuring_learning/index.md
-    - posts/npv_trap/index.md
+    # - posts/innovation_metrics/index.md
+    # - posts/laddered_innovation/index.md
+    # - posts/npv_trap/index.md
     - posts/option_mindset/index.md
-    - posts/options_characteristics/index.md
+    # - posts/options_characteristics/index.md
     - posts/options_explained/index.md
     - posts/quest_race_grind/index.md
     - posts/three_innovation_types/index.md
