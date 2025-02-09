@@ -64,7 +64,7 @@ Employing an _Innovation Engine_ is not without challenges.  It requires new way
 
 [1]:	https://www.youtube.com/watch?v=vbkDa0OZetk
 [2]:	https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma
-[3]:	the-three-innovation-types
+[3]:	../three_innovation_types/index.md
 [4]:	https://en.wikipedia.org/wiki/Binary_classification
 [5]:	https://en.wikipedia.org/wiki/Type_I_and_type_II_errors
 [6]:	https://en.wikipedia.org/wiki/Confusion_matrix

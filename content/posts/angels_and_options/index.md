@@ -1,10 +1,10 @@
-—
-Title: Angels and Options
+---
+title: Angels and Options
 Date: 2020-01-15
 Slug: angels-and-options
 Status: published
 Summary: How pre-growth investors view their portfolios.
-—
+---
 
 
 ![](assets/mcclure_taxi.png)
@@ -15,7 +15,7 @@ This is the Founders' pitch to Angel Investors:
 
 If the angel investor believes in the growth potential, he participates in the round.   If growth materializes, he doubles-down by investing in future rounds; if not, he walks away. In essence, the angel is making a small investment today to have the opportunity to make a larger (and more valuable) investment in the future when he knows more about the market.  And while this smaller investment commonly takes the forms of preferred shares (equity) or a convertible note (debt), for all practical purposes the angel investment is an option.
 
-Here’s how an Angel investment maps to a traditional option: (Note: I’m going to use a bit of option-lingo here, so if you’re unfamiliar with the terms then see [this post](options-explained.html) to familiarize yourself with the basics.)
+Here’s how an Angel investment maps to a traditional option: (Note: I’m going to use a bit of option-lingo here, so if you’re unfamiliar with the terms then see [this post](../options_explained/index.md) to familiarize yourself with the basics.)
 
 *   The option *premium* is the angel investment itself.
 *   The option *expiration* date is the investment divided by the burn rate.
@@ -25,7 +25,7 @@ Here’s how an Angel investment maps to a traditional option: (Note: I’m goin
 *   The option *value* is the strike less the spot.
 
 
-Early-stage investors that recognize this dynamic have greater insight in how to organize and manage their portfolios using the broad set of tools developed for option investing.  I’ve developed such a model from those tools (called [Innovation Options](measuring-learning.html)) based on well-known option-pricing methods that basically works like this:
+Early-stage investors that recognize this dynamic have greater insight in how to organize and manage their portfolios using the broad set of tools developed for option investing.  I’ve developed such a model from those tools (called [Innovation Options](../measuring_learning/index.md)) based on well-known option-pricing methods that basically works like this:
 
 1.  It considers a series of possible outcomes (good/bad/indifferent), then
 2.  It determines the terminal value for each possible outcomes, then

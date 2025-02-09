@@ -93,7 +93,7 @@ Corporate innovation should reject this anti-pattern and instead respect the gro
 Obviously not all products make it to H1. However, those that do must at some point prove their assumptions. The path to H1 is, in effect, the process of exploration, increasing certainty until we achieve the knowledge necessary to support scale. By accepting this and valuing our exploratory efforts in terms of the optionality they provide the firm, we can focus more on what’s real and reserve Athena for myth.
 
 
-[1]:	/the-three-innovation-types
+[1]:	../three_innovation_types/index.md
 [2]:	https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth
 
 [image-1]:	assets/athena.png

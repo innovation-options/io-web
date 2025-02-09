@@ -1,10 +1,11 @@
-Title: Accounting is the Problem
+---
+title: Accounting is the Problem
 Date: 2020-01-01
 Slug: accounting-is-the-problem
 Category: learn
 Status: published
 Summary: How the prevailing accounting system results in innovation failure.
-
+---
 
 Imagine yourself as a product manager for a large Fortune 500 firm with a new product idea. So you go to finance and say, "Hey, I've got this idea and need some funding." And they say, "Great, the firm needs new innovation -- what's the ROI?".  
 
