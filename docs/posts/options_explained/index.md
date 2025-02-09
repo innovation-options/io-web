@@ -70,15 +70,15 @@ When we overlay the two curves, we can see why options are so valuable.  Yes, th
 
 Options and other derivatives can get very complicated, but they will share most of these same basic characteristics. Again, the point is to delay investment decisions until we have more information, thus managing risk under conditions of high uncertainty/volatility.
 
-[image-1]:	{static}gekko.jpg
-[image-2]:	{static}payoff_plot.png
-[image-3]:	{static}appreciated.png
-[image-4]:	{static}depreciated.png
-[image-5]:	{static}breakeven_plot.png
-[image-6]:	{static}strike_plot.png
-[image-7]:	{static}in_money.png
-[image-8]:	{static}out_money.png
-[image-9]:	{static}one_side_curve.png
-[image-10]:	{static}premium_line.png
-[image-11]:	{static}payoff_premium.png
-[image-12]:	{static}combined.png
+[image-1]:	assets/gekko.jpg
+[image-2]:	assets/payoff_plot.png
+[image-3]:	assets/appreciated.png
+[image-4]:	assets/depreciated.png
+[image-5]:	assets/breakeven_plot.png
+[image-6]:	assets/strike_plot.png
+[image-7]:	assets/in_money.png
+[image-8]:	assets/out_money.png
+[image-9]:	assets/one_side_curve.png
+[image-10]:	assets/premium_line.png
+[image-11]:	assets/payoff_premium.png
+[image-12]:	assets/combined.png

@@ -30,5 +30,5 @@ Such a staggered approach reduces the risk associated with the uncertainty of th
 
 As William Gibson famously stated, "the future is already here -- it just isn't evenly distributed".  The laddered innovation portfolio reduces the risk associated with market timing, and allows for the company to be around when that distribution occurs.
 
-[image-1]:	{static}rung.png
-[image-2]:	{static}portfolio.png
+[image-1]:	assets/rung.png
+[image-2]:	assets/portfolio.png

@@ -96,10 +96,10 @@ Obviously not all products make it to H1. However, those that do must at some po
 [1]:	/the-three-innovation-types
 [2]:	https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth
 
-[image-1]:	{static}athena.png
-[image-2]:	{static}s_curve.png
-[image-3]:	{static}three_horizons.png
-[image-4]:	{static}growth_profit_arrows.png
-[image-5]:	{static}growth_profit_transition.png
-[image-6]:	{static}innovation_growth_transition.png
-[image-7]:	{static}one_way.png
+[image-1]:	assets/athena.png
+[image-2]:	assets/s_curve.png
+[image-3]:	assets/three_horizons.png
+[image-4]:	assets/growth_profit_arrows.png
+[image-5]:	assets/growth_profit_transition.png
+[image-6]:	assets/innovation_growth_transition.png
+[image-7]:	assets/one_way.png

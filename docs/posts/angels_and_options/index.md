@@ -7,7 +7,7 @@ Summary: How pre-growth investors view their portfolios.
 —
 
 
-![](%7Bstatic%7Dmcclure_taxi.png)
+![](assets/mcclure_taxi.png)
 
 This is the Founders' pitch to Angel Investors:
 
@@ -34,7 +34,7 @@ Early-stage investors that recognize this dynamic have greater insight in how to
 
 Here’s a quick visual to help.
 
-![](%7Bstatic%7Dmoving_tree.gif)
+![](assets/moving_tree.gif)
 
 Each node on this pricing tree shows a hypothetical outcome for an investment. At the beginning (on the left), any outcome is possible: from roaring success (up and to the right) to total failure (crash and burn.) As the project moves through time, we learn more about what’s real by testing the market, and our assessment of that activity more closely represents the actual path, with the option value adjusting to the new reality accordingly.
 

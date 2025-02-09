@@ -100,10 +100,10 @@ The WPS is an essential metric for any product under discontinuous innovation.
 [1]:	https://en.wikipedia.org/wiki/Product/market_fit
 [2]:	https://en.wikipedia.org/wiki/Bass_diffusion_model
 
-[image-1]:	{static}two_curves.png
-[image-2]:	{static}baseline.png
-[image-3]:	{static}delta_prom.png
-[image-4]:	{static}delta_wom.png
-[image-5]:	{static}which_is_which.png
-[image-6]:	{static}tipping_point.png
-[image-7]:	{static}adoption_cohort.png
+[image-1]:	assets/two_curves.png
+[image-2]:	assets/baseline.png
+[image-3]:	assets/delta_prom.png
+[image-4]:	assets/delta_wom.png
+[image-5]:	assets/which_is_which.png
+[image-6]:	assets/tipping_point.png
+[image-7]:	assets/adoption_cohort.png

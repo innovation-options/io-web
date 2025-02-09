@@ -102,5 +102,5 @@ This is actually represented by its own transition, called "Idea/Company Fit".  
 ## Summary
 The Rogers Technology Adoption Lifecycle provides a useful set of characteristics for entrepreneurs introducing new products to new markets.  The intersection of problem-solving/social-usage at each stage of the Innovators, Early Adopters, Early Majority, Late Majority and Laggards gives critical insight to what the customer priorities are at any given point in time.  This in combination with the concepts of Problem/Solution, Product/Market, Market/Profit and Idea/Company fit as the key transition metrics provides the high-level strategic guidance to successfully bring your idea through the entire lifecycle successfully.
 
-[image-1]:	{static}diffusion_of_innovations.png
-[image-2]:	{static}diffusion_matrix.png
+[image-1]:	assets/diffusion_of_innovations.png
+[image-2]:	assets/diffusion_matrix.png

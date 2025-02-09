@@ -4,7 +4,7 @@ Slug: measuring-learning
 Category: learn
 Status: published
 Summary:  How to Measure ROI without Forecasting Revenue.
-Image: {static}its\_a\_trap.gif
+Image: assets/its\_a\_trap.gif
 
 It starts innocently enough. An enterprising Product Manager comes up with an idea that represents a high-growth opportunity for the firm. He runs the proposal by Finance who naturally wants to see the ROI. The PM knows how much investment he needs, so the I is covered--but the Return? That’s when entrepreneurial enthusiasm meets corporate reality.
 
@@ -112,13 +112,13 @@ Sometimes things go _really_ poorly. Let’s say this time John goes through the
 The Innovation Option model measures **_learning_** (what your early-stage Product team should be doing) in **_dollars_** (what your Finance team needs for effective corporate governance.) It provides a simple, easy to implement approach that minimally disrupts existing workflows. And it doesn’t simply mitigate risk, it reduces it through iteration. Firms seeking to innovate faster with better results and less risk should make Innovation Options the first step in their new-product initiatives.
 
 
-[image-1]:	{static}its_a_trap.gif
-[image-2]:	{static}values_pricing_tree.png
-[image-3]:	{static}step_zero_pricing_tree.png
-[image-4]:	{static}step_one_up_pricing_tree.png
-[image-5]:	{static}up_flat_tree.png
-[image-6]:	{static}up_flat_up_tree.png
-[image-7]:	{static}up_flat_up_flat_tree.png
-[image-8]:	{static}good_path.png
-[image-9]:	{static}bad_path.png
-[image-10]:	{static}ugly_path.png
+[image-1]:	assets/its_a_trap.gif
+[image-2]:	assets/values_pricing_tree.png
+[image-3]:	assets/step_zero_pricing_tree.png
+[image-4]:	assets/step_one_up_pricing_tree.png
+[image-5]:	assets/up_flat_tree.png
+[image-6]:	assets/up_flat_up_tree.png
+[image-7]:	assets/up_flat_up_flat_tree.png
+[image-8]:	assets/good_path.png
+[image-9]:	assets/bad_path.png
+[image-10]:	assets/ugly_path.png

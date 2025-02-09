@@ -13,4 +13,5 @@ nav:
   - Home: index.md
   - Posts:
     # - The Accounting IS the Problem: accounting-is-the-problem.md
+    - posts/measuring_learning/index.md
     - posts/calculate_option/index.md

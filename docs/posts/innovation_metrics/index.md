@@ -46,5 +46,5 @@ Again, in practice this can be difficult, as least for the second scenario.  In 
 
 With that, you can now orient your early-stage innovation metrics around the speed and accuracy of your market testing.  Keeping a close eye on these KPIs, and not on phantom projections of ROI, are the key to managing a successful innovation project.
 
-[image-1]:	{static}big-rig.png
-[image-2]:	{static}wildcat.png
+[image-1]:	assets/big-rig.png
+[image-2]:	assets/wildcat.png

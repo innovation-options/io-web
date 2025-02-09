@@ -70,5 +70,5 @@ Employing an _Innovation Engine_ is not without challenges.  It requires new way
 [6]:	https://en.wikipedia.org/wiki/Confusion_matrix
 [7]:	https://en.wikipedia.org/wiki/Observational_error#Random_errors_versus_systematic_errors
 
-[image-1]:	{static}decision_result_matrix.png
-[image-2]:	{static}confusion_matrix.png
+[image-1]:	assets/decision_result_matrix.png
+[image-2]:	assets/confusion_matrix.png

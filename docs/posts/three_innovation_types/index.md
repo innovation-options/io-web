@@ -60,5 +60,5 @@ All companies are good at sustaining innovation--those that arenâ€™t simply donâ
 [3]:	https://en.wikipedia.org/wiki/Compton%27s_Encyclopedia#CD-ROM_editions
 [4]:	https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica
 
-[image-1]:	{static}encyclopedia_britannica.png
-[image-2]:	{static}comptons.png
+[image-1]:	assets/encyclopedia_britannica.png
+[image-2]:	assets/comptons.png

@@ -31,13 +31,13 @@ With the factors determined, you build the lattice by taking your starting point
 
 Then, those three results are themselves multiplied by $u$, $d$ and $m$, creating still more nodes.
 
-![](%7Bstatic%7Dequations_step_two.png)
+![](assets/equations_step_two.png)
 
 This continues for a given number of steps until the option’s term (the period within which it must be exercised) expires.
 
 An interesting feature to note is that the $u$ and $d$ factors are reciprocals of one another. This means that going up in one step and then down in the next results in the same value as if you went down and then up.
 
-![](%7Bstatic%7Drecipricol.png)
+![](assets/recipricol.png)
 
 In fact, any combination of up/down/flat moves results in the same possible future value. This is called a recombining matrix, making the trinomial method fairly easy to visualize and calculate.
 
@@ -53,7 +53,7 @@ $$Max[S_n-K, 0]$$
 
 Simply apply that to every possible expected value at expiry, and you have the total range of terminal values at option expiry.
 
-![](%7Bstatic%7Dmax_equation_applied.png)
+![](assets/max_equation_applied.png)
 
 #### Step Three: Calculate the Discounted Expected Values
 
@@ -68,11 +68,11 @@ $$p_d = \left(\frac{e^{\sigma\sqrt {\Delta t/2}}-e^{(r - q)  \Delta t / 2}}{e^{\
 
 The equations here are the most complex, but in plain English they say, “multiply the terminal values by their expected value, and sum those results taking into account the time value of money at the risk-free rate $r$ less any possible dividend-yield $q$.”
 
-![](%7Bstatic%7Dreturn_equations_applied.png)
+![](assets/return_equations_applied.png)
 
 Continue calculating backward column by column, node by node, through the entire lattice.  Repeating this process back to time zero results in a single number that represents the value of the option today.
 
-![](%7Bstatic%7Dfinal_value.png)
+![](assets/final_value.png)
 
 
 Thus, in contrast to a traditional project where value is determined from a single estimated future outcome, an option considers many different future outcomes, calculates their relative probability, and sums together their discounted expected values to get the current value.
