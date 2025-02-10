@@ -1,10 +1,7 @@
-Title: Option Characteristics
-Date: 2020-01-12
-Slug: option-characteristics
-Category: learn
-Status: published
-Summary: How options characteristics align to corporate innovation priorities.
-
+---
+title: Option Characteristics
+subtitle: How options characteristics align to corporate innovation priorities.
+---
 
 
 Options have several characteristics that make them uniquely appropriate for managing projects facing high uncertainty environments.

@@ -1,8 +1,7 @@
-Title: What's Your WOM/PROM Score?
-Date: 2020-01-07
-Slug: wom-prom-score
-Summary: Measuring Product/Market Fit.
-Category: learn
+---
+title: What's Your WOM/PROM Score?
+subtitle: Measuring Product/Market Fit.
+---
 
 The critical question any pre-growth innovator faces is: **when do I step on the gas?**
 

@@ -1,10 +1,7 @@
-Title: Laddered Innovation
-Slug: laddered-innovation
-Status: published
-Date: 2020-01-09
-Summary: Building a staggered portfolio of options.
-Category: learn
-
+---
+title: Laddered Innovation
+subtitle: Building a staggered portfolio of options.
+---
 
 Laddered innovation is the process of repeatedly testing the same idea against market conditions in small, discrete periods of time in order to reduce marketing timing risk overall.  It uses Innovation Options to compartmentalize and sandbox the downside of any given iteration, while preserving the upside potential of recognizing market shifts earlier than the competition.
 

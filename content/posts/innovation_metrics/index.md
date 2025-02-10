@@ -1,8 +1,7 @@
-Title: Innovation KPIs
-Date: 2020-01-10
-Summary: Outlining the two metrics that matter for innovation projects.
-Category: learn
-Status: published
+---
+title: Innovation KPIs
+subtitle: Outlining the two metrics that matter for innovation projects.
+---
 
 One of the most difficult things to grok about Innovation Options is that value derives from the choice itself, rather than the results of that choice.  Whether you ultimately decide to exercise the option or let it expire is irrelevant; all that matters is that the accuracy of the decision itself.
 

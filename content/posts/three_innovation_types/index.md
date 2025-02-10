@@ -1,8 +1,7 @@
-Title: The Three Innovation Types
-Date: 2020-01-04
-Slug: the-three-innovation-types
-Summary: Describing the differences between the Three Innovation Types and their impact on corporate governance.
-Category: learn
+---
+title: The Three Innovation Types
+subtitle: Describing the differences between the Three Innovation Types and their impact on corporate governance.
+---
 
 A personal embarrassment precipitated my appreciation for the three innovation types. I was presenting to a large industrial firm, explaining the latest Innovation Management trends and extolling their use throughout the firm. Concluding my (rather presumptive) presentation, a veteran product manager rebuked me, saying, “Look, it’s obvious you don’t know anything about our industry. Maybe your approach is necessary in tech, but if I save $50 off my BOM through some new process I’m going to sell 10,000 more units. It is as predicable as the sun rising tomorrow. This is how I’ve innovated for 30 years and it’s kept us on top of our industry just fine.” (Left unstated was, “so take this crap and stuff it.”) I sheepishly backed off, murmuring something about disruptive versus sustaining innovation before quickly shifting topics.
 

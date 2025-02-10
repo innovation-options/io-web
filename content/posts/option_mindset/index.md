@@ -1,9 +1,7 @@
-Title: The Option Mindset
-Date: 2020-01-02
-Status: Published
-Category: Learn
-Slug: option-mindset
-Summary: Understanding the option mindset for innovation.
+---
+title: The Option Mindset
+subtitle: Understanding the option mindset for innovation.
+---
 
 Understanding the option mindset is perhaps the most difficult thing to grasp about innovation accounting when you come from an a traditional approach. But it's absolutely critical to have this mindset when developing your innovation governance structure.  It's easy to misunderstand that the option's value comes from a different source than the future revenue potential.
 

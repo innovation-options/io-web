@@ -1,10 +1,7 @@
-Title: Options Explained
-Date: 2020-01-13
-Slug: options-explained
-Status: published
-Summary:  A step-by-step guide to understanding financial options.
-Image: images/options-explained/index.jpg
-Category: learn
+---
+title: Options Explained
+subtitle:  A step-by-step guide to understanding financial options.
+---
 
 ![][image-1]
 

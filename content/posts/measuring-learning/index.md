@@ -1,10 +1,7 @@
-Title: Measuring Learning in Dollars
-Date: 2020-01-14
-Slug: measuring-learning
-Category: learn
-Status: published
-Summary:  How to Measure ROI without Forecasting Revenue.
-Image: assets/its\_a\_trap.gif
+---
+title: Measuring Learning in Dollars
+subtitle:  How to Measure ROI without Forecasting Revenue.
+---
 
 It starts innocently enough. An enterprising Product Manager comes up with an idea that represents a high-growth opportunity for the firm. He runs the proposal by Finance who naturally wants to see the ROI. The PM knows how much investment he needs, so the I is covered--but the Return? That’s when entrepreneurial enthusiasm meets corporate reality.
 

@@ -1,7 +1,7 @@
-Title: The Quest, The Race, The Grind
-Date: 2020-01-05
-Summary: Understanding the Three Horizons of Growth
-Category: learn
+---
+title: The Quest, The Race, The Grind
+subtitle: Understanding the Three Horizons of Growth
+---
 
 ![][image-1]
 

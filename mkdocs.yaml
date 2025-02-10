@@ -17,7 +17,7 @@ nav:
   - Main:
     - pages/about.md
   - Posts:
-    - posts/measuring_learning/index.md
+    - posts/measuring-learning/index.md
     - posts/calculate_option/index.md
     # - posts/accounting_problem/index.md
     # - posts/angels_and_options/index.md

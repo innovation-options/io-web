@@ -1,9 +1,6 @@
 ---
 title: Angels and Options
-Date: 2020-01-15
-Slug: angels-and-options
-Status: published
-Summary: How pre-growth investors view their portfolios.
+subtitle: How pre-growth investors view their portfolios.
 ---
 
 
@@ -25,7 +22,7 @@ Here’s how an Angel investment maps to a traditional option: (Note: I’m goin
 *   The option *value* is the strike less the spot.
 
 
-Early-stage investors that recognize this dynamic have greater insight in how to organize and manage their portfolios using the broad set of tools developed for option investing.  I’ve developed such a model from those tools (called [Innovation Options](../measuring_learning/index.md)) based on well-known option-pricing methods that basically works like this:
+Early-stage investors that recognize this dynamic have greater insight in how to organize and manage their portfolios using the broad set of tools developed for option investing.  I’ve developed such a model from those tools (called [Innovation Options](../measuring-learning/index.md)) based on well-known option-pricing methods that basically works like this:
 
 1.  It considers a series of possible outcomes (good/bad/indifferent), then
 2.  It determines the terminal value for each possible outcomes, then

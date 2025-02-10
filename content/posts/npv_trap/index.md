@@ -1,9 +1,7 @@
-Title: The NPV Trap
-Date: 2020-01-11
-Slug: the-npv-trap
-Category: learn
-Status: published
-Summary: Why Net Present Value fails for breakthrough innovation.
+---
+title: The NPV Trap
+subtitle: Why Net Present Value fails for breakthrough innovation.
+---
 
 The most common way to show Return on Investment is called “Net Present Value”, or NPV.   NPV became the most popular way to calculate ROI because of its simplicity in concept and execution.  It's a three-step process: forecast future revenues, calculate the investment required to generate those revenues, sum all those cash flows together discounted at the appropriate cost of capital to produce an ROI that is comparable across the firm.
 
