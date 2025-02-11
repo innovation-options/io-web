@@ -1,8 +1,5 @@
 ---
-Title: About
-Date: 2024-01-01
-Description: Innovation Options is a creation of David Binetti
-Image: logo.png
+title: About
 ---
 
 The Innovation Options framework was developed by [David Binetti](https://www.dbinetti.com), six-time entrepreneur with exits including Cisco and Pinterest.
