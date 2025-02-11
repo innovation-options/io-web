@@ -212,14 +212,14 @@ function calculateOption() {
         let datum = subArray[j]['value'].toFixed(precision).toString();
         inner += `${datum}<br>`
       };
-      output += `<td class='align-middle'>${inner}</td>`;
+      output += `<td class=''>${inner}</td>`;
     };
     return output;
   }
 
   function createTable(valueArray) {
     return `
-      <table class='table'>
+      <table class=''>
         <thead><tr>${createHead(valueArray)}</tr></thead>
         <tbody><tr>${createBody(valueArray)}<tr></tbody>
       </table>
