@@ -1,5 +1,5 @@
 ---
-itle: Technology Adoption Lifecycle
+title: Technology Adoption Lifecycle
 subtitle: Everett Rogers's Diffusion of Innovation applied.
 ---
 

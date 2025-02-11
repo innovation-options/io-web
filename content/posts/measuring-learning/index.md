@@ -3,7 +3,7 @@ title: Measuring Learning in Dollars
 subtitle:  How to Measure ROI without Forecasting Revenue.
 ---
 
-It starts innocently enough. An enterprising Product Manager comes up with an idea that represents a high-growth opportunity for the firm. He runs the proposal by Finance who naturally wants to see the ROI. The PM knows how much investment he needs, so the I is covered--but the Return? That’s when entrepreneurial enthusiasm meets corporate reality.
+It starts innocently enough. An enterprising Product Manager comes up with an idea that represents a high-growth opportunity for the firm. He runs the proposal by Finance who naturally wants to see the ROI. The PM knows how much investment he needs, so the I is covered -- but the Return? That’s when entrepreneurial enthusiasm meets corporate reality.
 
 He knows the revenues must be high enough to justify the riskiness of the new product. But he also knows if he doesn’t meet those targets he’ll get killed at quarterly reviews, even though it’s nearly impossible to accurately forecast revenues for products that don’t exist. Still, if he doesn’t show the ROI he’ll never get funded, so he presses forward even though he knows it’s a trap.
 
@@ -13,7 +13,7 @@ The PM might grouse that “Finance just doesn’t get it”, but let’s rememb
 
 Nor does the C-Suite escape the trap. While these outcomes represent potential failure, humiliation and career-threatening danger to the innovators, it doesn’t represent the biggest threat to the firm: namely, **that most employees avoid the trap by not innovating at all.** As a result, the the firm atrophies and loses ground to competitors, eventually costing the CEO her job as well.
 
-### It doesn’t have to be this way.
+**It doesn’t have to be this way.**
 
 #### The Problem
 
