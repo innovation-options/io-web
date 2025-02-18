@@ -14,8 +14,9 @@ extra:
 docs_dir: 'content'
 nav:
   - Home: index.md
-  - Main:
-    - pages/about.md
+  - Learn: learn.md
+  # - Main:
+  #   - pages/about.md
     # - pages/calculator.md
   - Posts:
     - posts/measuring-learning/index.md
