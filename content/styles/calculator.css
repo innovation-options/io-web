@@ -1,37 +1,3 @@
-.table tbody>tr>td.vert-middle{
-    vertical-align: middle;
-}
-
-.fa-trash {
-  color: red;
-}
-
-.fa-edit {
-  margin-right: 2rem;
-  color: black;
-}
-
-.fa-plus {
-  margin-right: 1rem;
-  color: green;
-}
-
-footer {
-  margin-top: 10rem;
-}
-
-section {
-  margin-top: 3rem;
-}
-
-.green {
-  color: green;
-}
-
-.lineup {
-  margin-bottom: 25px;
-}
-
-.dotted {
-  border-bottom: dotted thin;
+table>tbody>tr>td.vert-middle{
+    vertical-align: middle !important;
 }

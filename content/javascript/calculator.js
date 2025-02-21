@@ -40,7 +40,7 @@ function calculateOption() {
     let i = 0;
     let output = '';
     while (i <= valueArray.length - 1) {
-      output += `<th class=''>${i}</th>`;
+      output += `<th>${i}</th>`;
       i++;
     }
     return output;
@@ -56,14 +56,14 @@ function calculateOption() {
         let datum = subArray[j]['value'].toFixed(0).toString();
         inner += `${datum}<br>`
       };
-      output += `<td class='align-middle'>${inner}</td>`;
+      output += `<td class='vert-middle'>${inner}</td>`;
     };
     return output;
   }
 
   function createTable(valueArray) {
     return `
-      <table class='table'>
+      <table>
         <thead><tr>${createHead(valueArray)}</tr></thead>
         <tbody><tr>${createBody(valueArray)}<tr></tbody>
       </table>

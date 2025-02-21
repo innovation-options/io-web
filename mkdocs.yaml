@@ -37,4 +37,4 @@ extra_javascript:
   - javascript/calculator.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  # - styles/calculator.css
+  - styles/calculator.css
