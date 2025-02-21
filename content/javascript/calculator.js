@@ -1,14 +1,5 @@
 let apiUrl = 'https://j6a2q5dm94.execute-api.us-west-2.amazonaws.com/v1/CalculateCompound/';
 
-let body = {
-    rate: 0.05,
-    term: 1.0,
-    iterations: 4,
-    sigma: 0.75,
-    strike: 5000000,
-    tranches: 4,
-};
-
 function getValueArray(valueTree, iterations) {
   let a = [];
   let i = iterations;
@@ -66,6 +57,20 @@ function createTable(valueArray) {
 
 
 function calculateOption() {
+  let strikeChoice = document.getElementById("strike").value;
+  let termChoice = document.getElementById("term").value;
+  let sigmaChoice = document.getElementById("sigma").value;
+  let tranchesChoice = document.getElementById("tranches").value;
+
+  let body = {
+      rate: 0.05,
+      term: Number(termChoice),
+      iterations: 6,
+      sigma: Number(sigmaChoice),
+      strike: Number(strikeChoice),
+      tranches: Number(tranchesChoice),
+  };
+  console.log(body);
   fetch(apiUrl, {
       method: 'POST',
       headers: {
