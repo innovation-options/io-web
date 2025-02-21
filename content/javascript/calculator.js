@@ -1,176 +1,19 @@
-// I'm a self-taught programmer; be gentle...
+let apiUrl = 'https://j6a2q5dm94.execute-api.us-west-2.amazonaws.com/v1/CalculateOption/';
 
-const { log, sqrt, exp, pow, max, floor } = Math;
+let body = {
+    rate: 0.05,
+    term: 1.0,
+    iterations: 4,
+    sigma: 0.75,
+    strike: 5000000,
+};
 
 function calculateOption() {
-  // Get the variables user input
-  let strike = document.getElementById("strike").value;
-  let termChoice = document.getElementById("term").value;
-  let sigmaChoice = document.getElementById("sigma").value;
+  let data = {"tranch-5": {"premium": 1507217.472538955, "term": 1, "strike": 5000000, "iterations": 4, "sigma": 0.75, "rate": 0.05, "value_tree": {"4": {"-4": 0.0, "-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 0.0, "1": 3497465.9738337398, "2": 9441385.595292438, "3": 19543036.54220204, "4": 36710723.58238398}, "3": {"-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 686379.2488379297, "1": 3559576.9713643324, "2": 9503496.59282303, "3": 19605147.53973263}, "2": {"-2": 0.0, "-1": 134702.2320617196, "0": 1033509.3605408894, "1": 3810285.214349635, "2": 9564836.035150772}, "1": {"-1": 268558.95122324605, "0": 1292965.5327335335, "1": 4049964.513010027}, "0": {"0": 1507217.472538955}}}, "tranch-4": {"premium": 320679.5333004677, "term": 0.5, "strike": 1507217.472538955, "iterations": 4, "sigma": 0.75, "rate": 0.05, "value_tree": {"4": {"-4": 0.0, "-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 0.0, "1": 685771.009967769, "2": 1683561.941864926, "3": 3135339.1813591835, "4": 5247662.60076144}, "3": {"-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 145184.47911288412, "1": 695161.742563006, "2": 1692952.6744601624, "3": 3144729.9139544195}, "2": {"-2": 0.0, "-1": 30736.984604044676, "0": 218886.14612978, "1": 743617.7498728771, "2": 1702284.8980079114}, "1": {"-1": 61522.82005222188, "0": 274405.22639261186, "1": 790762.5341225541}, "0": {"0": 320679.5333004677}}}, "tranch-3": {"premium": 47961.38308078914, "term": 0.25, "strike": 320679.5333004677, "iterations": 4, "sigma": 0.75, "rate": 0.05, "value_tree": {"4": {"-4": 0.0, "-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 0.0, "1": 97373.0946449844, "2": 224313.1512446538, "3": 389798.0629471832, "4": 605531.8252816272}, "3": {"-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 21697.268488552036, "1": 98373.65399830164, "2": 225313.71059797105, "3": 390798.62230050046}, "2": {"-2": 0.0, "-1": 4834.71806643009, "0": 32702.958992438413, "1": 105105.95827805673, "2": 226311.14808376777}, "1": {"-1": 9689.749354806554, "0": 41012.16891972342, "1": 111723.49467367966}, "0": {"0": 47961.38308078914}}}, "tranch-2": {"premium": 5039.035334616191, "term": 0.125, "strike": 47961.38308078914, "iterations": 4, "sigma": 0.75, "rate": 0.05, "value_tree": {"4": {"-4": 0.0, "-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 0.0, "1": 9891.08799532635, "2": 21822.01753497372, "3": 36213.465649406695, "4": 53572.86569800831}, "3": {"-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 2282.387258458128, "1": 9965.969140261002, "2": 21896.89867990837, "3": 36288.346794341356}, "2": {"-2": 0.0, "-1": 526.6651757656447, "0": 3437.387806405571, "1": 10635.011821820486, "2": 21971.662914414122}, "1": {"-1": 1055.715142706476, "0": 4309.296429507822, "1": 11296.702841447754}, "0": {"0": 5039.035334616191}}}, "tranch-1": {"premium": 372.1687107259657, "term": 0.0625, "strike": 5039.035334616191, "iterations": 4, "sigma": 0.75, "rate": 0.05, "value_tree": {"4": {"-4": 0.0, "-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 0.0, "1": 714.4003306406448, "2": 1530.0835058196953, "3": 2461.4087218558207, "4": 3524.770924753212}, "3": {"-3": 0.0, "-2": 0.0, "-1": 0.0, "0": 168.8690679267227, "1": 718.3355396046569, "2": 1534.0187147837073, "3": 2465.3439308198326}, "2": {"-2": 0.0, "-1": 39.91706173605411, "0": 254.10524115721157, "1": 765.7445033919911, "2": 1537.950850566334}, "1": {"-1": 79.99322498378291, "0": 318.38711058320774, "1": 812.8107571552}, "0": {"0": 372.1687107259657}}}};
 
-  // A constant; should be adjusted as necessary.
-  let riskFree = 0.05;
-
-  // Turn the term input into a float measured in years
-  const termMap = {
-    'One Week': 0.019,
-    'One Fortnight': 0.038,
-    'One Month': 0.083,
-    'One Quarter': 0.25,
-    'Six Months': 0.50,
-    'One Year': 1.0,
-    'Two Year': 2.0,
-  };
-
-  // Could have used tuples in the above, but for clarity
-  // turn the term input into an integer for number of iterations.
-  const iterationsMap = {
-    'One Week': 5, // Daily
-    'One Fortnight': 4, // Semi-Weekly
-    'One Month': 4, // Weekly
-    'One Quarter': 6, // Semi-Monthly
-    'Six Months': 6, // Monthly
-    'One Year': 4, // Quarterly
-    'Two Year': 4, // Semi-Annually
-  };
-
-  // For the purposes of this tool the following sigma value buckets
-  // are necessarily lossy.  More properly, sigma needs to be calculated
-  // by industry, but this is close enough for demonstration and frankly
-  // it took a lot of effort to calculate the actual sigmas so I'm
-  // going to keep them proprietary for the time being.
-  const sigmaMap = {
-    'Very Low': 0.25,
-    'Low': 0.5,
-    'Moderate': .75,
-    'High': 1.0,
-    'Very High': 1.5,
-  };
-
-  // Set the variables
-  let term = termMap[termChoice];
-  let iterations = iterationsMap[termChoice];
-  let sigma = sigmaMap[sigmaChoice];
-
-  // Calculate DeltaT in terms of years.
-  function getDeltaT(term, iterations) {
-    return term / iterations;
-  }
-  let deltaT = getDeltaT(term, iterations);
-
-  // Calculate the up, down and flat factors per
-  // the trinomial formula
-  function getUpFactor(sigma, deltaT) {
-    return exp(sigma * sqrt(2*deltaT));
-  }
-  let upFactor = getUpFactor(sigma, deltaT);
-
-  function getDownFactor(upFactor) {
-    return 1 / upFactor;
-  }
-  let downFactor = getDownFactor(upFactor);
-
-  function getFlatFactor() {
-    return 1;
-  }
-  let flatFactor = getFlatFactor();
-
-  // Calculate the corresponding probabilities
-  function getUpProb(deltaT, sigma, riskFree) {
-    return pow(
-      (
-        exp(riskFree * (deltaT / 2)) -
-        exp(-sigma * sqrt(deltaT / 2))
-      ) /
-      (
-        exp(sigma * sqrt(deltaT / 2)) -
-        exp(-sigma * sqrt(deltaT / 2))
-      ),
-      2
-    );
-  }
-  let upProb = getUpProb(deltaT, sigma, riskFree);
-
-  function getDownProb(sigma, deltaT, riskFree) {
-    return pow(
-      (
-        exp(sigma * sqrt(deltaT / 2)) -
-        exp(riskFree * (deltaT / 2))
-      ) /
-      (
-        exp(sigma * sqrt(deltaT / 2)) -
-        exp(-sigma * sqrt(deltaT / 2))
-      ),
-      2
-    );
-  }
-  let downProb = getDownProb(sigma, deltaT, riskFree);
-
-  function getFlatProb(upProb, downProb) {
-    return 1 - (upProb + downProb)
-  }
-  let flatProb = getFlatProb(upProb, downProb);
-
-  // Step one: generate the recombining matrix of spot values
-  function getSpotTree(iterations, strike, upFactor) {
-    let v = {};
-    let i = -iterations;
-    while (i <= iterations) {
-      v[i] = strike * pow(upFactor, i);
-      i ++;
-    }
-    return v;
-  }
-  let spotTree = getSpotTree(iterations, strike, upFactor);
-
-  // Step two: find the terminal value at expiration
-  function getTermValue(spotTree, iterations, strike) {
-    let p = {};
-    let v = spotTree;
-    let i = -iterations;
-    while (i <= iterations) {
-      p[i] = max(v[i] - strike, 0);
-      i ++;
-    }
-    return p;
-  }
-  let termValue = getTermValue(spotTree, iterations, strike);
-
-  // Step three: find the discounted value at each node of the matrix..
-  function getValueTree(termValue, iterations, riskFree, deltaT, upProb, downProb, flatProb) {
-    let v = {};
-    let p = termValue;
-    let j = iterations -1;
-    v[iterations] = p;
-    while (j >= 0) {
-      let i = -j;
-      let k = {};
-      while (i <= j) {
-        k[i] = exp(-riskFree * deltaT) *
-        (upProb * v[j + 1][i + 1] + flatProb * v[j + 1][i] + downProb * v[j + 1][i - 1]);
-        i ++;
-      }
-      v[j] = k;
-      j --;
-    }
-    return v;
-  }
-  let valueTree = getValueTree(termValue, iterations, riskFree, deltaT, upProb, downProb, flatProb);
-
-  // Return the value at time zero (ie, the premium.)
-  function getPremium(valueTree) {
-    return valueTree[0][0];
-  }
-  let premium = getPremium(valueTree);
-
-  // Set the precision based on the premium
-  let precision = 1;
-  if (premium < 1) {
-    precision = 2;
-  }
 
   // Prepare the entire valuation tree for rendering.
-  function getValueArray(valueTree) {
+  function getValueArray(valueTree, iterations) {
     let a = [];
     let i = iterations;
     let j = 0;
@@ -190,7 +33,8 @@ function calculateOption() {
     }
     return a;
   }
-  let valueArray = getValueArray(valueTree);
+  let valueArray = getValueArray(data['tranch-1']['value_tree'], data['tranch-1']['iterations']);
+  let premium = data['tranch-1']['premium'];
 
   function createHead(valueArray) {
     let i = 0;
@@ -209,26 +53,55 @@ function calculateOption() {
       subArray.sort((a, b) => b.moves - a.moves);
       let inner = '';
       for (let j = 0; j < subArray.length; j++) {
-        let datum = subArray[j]['value'].toFixed(precision).toString();
+        let datum = subArray[j]['value'].toFixed(0).toString();
         inner += `${datum}<br>`
       };
-      output += `<td class=''>${inner}</td>`;
+      output += `<td class='align-middle'>${inner}</td>`;
     };
     return output;
   }
 
   function createTable(valueArray) {
     return `
-      <table class=''>
+      <table class='table'>
         <thead><tr>${createHead(valueArray)}</tr></thead>
         <tbody><tr>${createBody(valueArray)}<tr></tbody>
       </table>
     `;
   }
-
   // Render it!
-  document.getElementById('premium').innerHTML = `The Premium for this Option is: ${premium.toFixed(precision)}`;
+  document.getElementById('premium').innerHTML = `The Premium for this Option is: ${premium.toFixed(0)}`;
   document.getElementById("valuation-tree").innerHTML = createTable(valueArray);
   document.getElementById("tree-title").innerHTML = "Pre-Money Valuation Tree";
 
+  // fetch(apiUrl, {
+  //     method: 'POST',
+  //     headers: {
+  //         'Content-Type': 'application/json'
+  //     },
+  //     body: JSON.stringify(body)
+  // })
+  // .then(response => {
+  //     if (!response.ok) {
+  //         throw new Error(`HTTP error! status: ${response.status}`);
+  //     }
+  //     return response.json(); // Parse the JSON response
+  // })
+  // .then(data => {
+  //     // Select the element where you want to render the data
+  //     const outputElement = document.getElementById('output');
+
+  //     // Create HTML elements to display the data
+  //     let outputHTML = '';
+  //     for (const key in data) {
+  //         outputHTML += `<p><b>${key}:</b> ${data[key]}</p>`;
+  //     }
+
+  //     // Update the DOM with the new content
+  //     outputElement.innerHTML = outputHTML;
+  // })
+  // .catch(error => {
+  //     console.error('There was a problem with the fetch operation:', error);
+  //     // Optionally, display an error message to the user
+  // });
 }
