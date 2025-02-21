@@ -12,13 +12,9 @@ title: Calculator
       <input id="calculate" type="button" value="Calculate" onclick="calculateOption();" />
     </p>
   </div>
-  <div class='mt-5 text-center'>
+  <div>
     <p>
-      <span id='premium'></span>
+      <span id='compound-output'></span>
     </p>
-    <p>
-      <span id='tree-title'></span>
-    </p>
-    <span id='valuation-tree'></span>
   </div>
 </div>
