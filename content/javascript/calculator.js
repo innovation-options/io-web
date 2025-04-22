@@ -21,6 +21,10 @@ function getValueArray(valueTree, iterations) {
   return a;
 }
 
+function intcomma(number) {
+  return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 function createHead(valueArray) {
   let i = 0;
   let output = '';
@@ -65,7 +69,7 @@ function calculateOption() {
   let body = {
       rate: 0.05,
       term: Number(termChoice),
-      iterations: 6,
+      iterations: 4,
       sigma: Number(sigmaChoice),
       strike: Number(strikeChoice),
       tranches: Number(tranchesChoice),
@@ -89,9 +93,11 @@ function calculateOption() {
     let compoundOutput = '';
 
     for (let i = 1; i <= tranchCount; i++) {
-      tranchKey = `tranch-${i}`
+      let tranchKey = `tranch-${i}`;
       let valueArray = getValueArray(data['body'][tranchKey]['value_tree'], data['body'][tranchKey]['iterations']);
-      compoundOutput += `<p>premium: ${data['body'][tranchKey]['premium']}</p>${createTable(valueArray)}`
+      let premium = intcomma(parseInt(data['body'][tranchKey]['premium']));
+      let term = intcomma(parseInt(data['body'][tranchKey]['term']*365));
+      compoundOutput += `<p>premium: $${premium}</p><p>term: ${term} days</p>${createTable(valueArray)}`
     };
 
     // Render it!
